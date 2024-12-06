@@ -1,0 +1,136 @@
+header{
+    background: #1a1a1a;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.container-custom{
+    margin: 0 240px;
+}
+
+.category-header{
+    text-align: center;
+    background: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-header:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-search-header{
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    width: 32px;
+    align-items: center;
+    background: #ff6633;
+    color: rgb(246, 246, 246);
+    border: none;
+    position: absolute;
+    right: 5px;
+}
+
+.input-search-header{
+    background: #fff;
+    border-radius: 50px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding: 4px 4px 4px 24px;
+    outline: none;
+}
+.input-search-header:focus{
+    outline: none;
+}
+
+.btn-become-seller{
+    color: white;
+    text-decoration: underline;
+}
+.btn-become-seller:hover{
+    color: white;
+}
+
+main{
+    background: #0d0f16 url(./image/market-bg.dc89de4d.jpg) no-repeat top;
+}
+
+.select-game-top{
+    background: #fe6702;
+    border: 1px solid #fe6702;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 18px;
+}
+
+.page-main{
+    background-color: #2B2A37;
+    border-radius: 5px;
+}
+
+.main-select-item{
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px #dadada;
+    margin: 15px auto 0;
+    padding: 40px 20px 60px;
+}
+
+.main-select-item option{
+    text-align: center;
+}
+.main-select-item select{
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.main-select-item select:hover{
+    border: 1px solid #fe6702;
+}
+
+.main-select-item select:focus{
+    outline: none;
+}
+
+.main-select-item option:hover{
+    color:#fe6702 ;
+    background-color: red;
+}
+
+.btn-sumit-form{
+    color: #fff;
+    cursor: pointer;
+    background: #fe6702;
+    border-radius: 5px;
+}
+
+.btn-sumit-form:hover{
+    color: #fff;
+    background: #fa9d5f;
+}
+
+.danger-text-form{
+    font-size: 18px;
+    line-height: 18px;
+    color: #e84006;
+}
